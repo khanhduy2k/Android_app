@@ -4,7 +4,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-tools:context=".MainActivity">
+tools:context=".Home">
 
 <LinearLayout
     android:weightSum="10"
@@ -24,11 +24,13 @@ tools:context=".MainActivity">
         android:orientation="vertical">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btnBatDauThi"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="5dp"
             android:layout_weight="3"
-            android:background="#0090FF">
+            android:background="#0090FF"
+            android:onClick="onClick">
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -55,11 +57,13 @@ tools:context=".MainActivity">
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btnCacBienBao"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="5dp"
             android:layout_weight="3"
-            android:background="#FFBF00">
+            android:background="#FFBF00"
+            android:onClick="onClick">
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -85,11 +89,13 @@ tools:context=".MainActivity">
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btnThiSaHinh"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="5dp"
             android:layout_weight="3"
-            android:background="#6A3030">
+            android:background="#6A3030"
+            android:onClick="onClick">
 
             <ImageView
                 android:id="@+id/imageView7"
@@ -124,11 +130,13 @@ tools:context=".MainActivity">
         android:orientation="vertical">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btnCauSai"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="5dp"
             android:layout_weight="3"
-            android:background="#FF0000">
+            android:background="#FF0000"
+            android:onClick="onClick">
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -154,11 +162,13 @@ tools:context=".MainActivity">
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btnCauDiemLiet"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="5dp"
             android:layout_weight="3"
-            android:background="#9500FF">
+            android:background="#9500FF"
+            android:onClick="onClick">
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -184,11 +194,13 @@ tools:context=".MainActivity">
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btnMeoThi"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="5dp"
             android:layout_weight="3"
-            android:background="#A1A1A1">
+            android:background="#A1A1A1"
+            android:onClick="onClick">
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -204,13 +216,14 @@ tools:context=".MainActivity">
                 android:id="@+id/textView8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hướng dẫn"
+                android:text="Mẹo thi"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+                app:layout_constraintTop_toBottomOf="@+id/imageView4"
+                app:layout_constraintVertical_bias="0.578" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
