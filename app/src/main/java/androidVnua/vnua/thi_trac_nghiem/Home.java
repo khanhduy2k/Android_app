@@ -3,6 +3,7 @@ package androidVnua.vnua.thi_trac_nghiem;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -51,7 +52,8 @@ public class Home extends AppCompatActivity {
         }else if (v == btnThiSaHinh) {
             Toast.makeText(Home.this, "Phần thi sa hình", Toast.LENGTH_LONG).show();
         }else if (v == btnMeoThi) {
-            Toast.makeText(Home.this, "Phần mẹo thi", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(Home.this, Tutorial.class);
+            startActivity(intent);
         }
     }
 
