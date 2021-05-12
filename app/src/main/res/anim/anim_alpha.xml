@@ -3,5 +3,7 @@
     <alpha
         android:fromAlpha="1.0"
         android:toAlpha="0.2"
-        android:duration="1500"/>
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:duration="1000"/>
 </set>
