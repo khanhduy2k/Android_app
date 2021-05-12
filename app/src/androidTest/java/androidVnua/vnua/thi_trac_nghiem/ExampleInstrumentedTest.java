@@ -1,4 +1,4 @@
-package com.example.thi_trac_nghiem;
+package androidVnua.vnua.thi_trac_nghiem;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.thi_trac_nghiem", appContext.getPackageName());
+        assertEquals("androidVnua.vnua.thi_trac_nghiem", appContext.getPackageName());
     }
 }

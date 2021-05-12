@@ -1,4 +1,4 @@
-package com.example.thi_trac_nghiem;
+package androidVnua.vnua.thi_trac_nghiem;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -6,6 +6,8 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
+
+import androidVnua.vnua.thi_trac_nghiem.R;
 
 public class Home extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.thi_trac_nghiem;
+package androidVnua.vnua.thi_trac_nghiem;
 
 import org.junit.Test;
 

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Ôn thi GPLX</string>
+    <string name="content_img">Hình ảnh icon</string>
+    <string name="batdauthi">Bắt đầu thi</string>
+    <string name="cacbienbao">Các biển báo</string>
+    <string name="thisahinh">Thi sa hình</string>
+    <string name="cautraloisai">Câu trả lời sai</string>
+    <string name="caudiemliet">Câu điểm liệt</string>
+    <string name="meothi">Mẹo thi</string>
 </resources>

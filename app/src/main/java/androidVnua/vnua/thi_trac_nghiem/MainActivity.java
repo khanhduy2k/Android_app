@@ -1,14 +1,14 @@
-package com.example.thi_trac_nghiem;
+package androidVnua.vnua.thi_trac_nghiem;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidVnua.vnua.thi_trac_nghiem.R;
 
 public class MainActivity extends AppCompatActivity {
     private static int SPLASH_SCREEN = 2500;
